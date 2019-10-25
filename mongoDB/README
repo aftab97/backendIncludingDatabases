@@ -1,0 +1,26 @@
+Download mongoDB  -> https://www.mongodb.com/download-center/community
+go to mongofolder
+
+npm init -y
+npm install mongoose   //access to chemas and datatypes etc //makes working with mongoDB easier
+
+//schema is a structured way of storing data
+
+$ means the teminal
+
+run mongodb
+
+FIRST TERMINAL ->
+cd C:\Program Files\MongoDB\Server\4.2\bin
+mongod
+
+SECOND TERMINAL (RUN MONGOSHELL)->
+cd C:\Program Files\MongoDB\Server\4.2\bin
+mongo //runs the mongo
+show dbs // shows where the memory is being allocated
+use signup //in the index.js we have allocated the database name to signup and we are now accessing it (mongoose.connect('mongodb://localhost:27017/signup',{)
+db.users.find().pretty() //this displacys all the queries
+
+THIRD TERMINAL ->
+locate the file
+node index.js //runs the program

@@ -1,0 +1,20 @@
+npm init -y
+npm express handle-bar
+
+To avoid having to stop server and starting it again to incorporate changes
+use - >
+npm nodemon
+
+---DEAN's method to install expree& handlebars---
+npm i express body-parser express-handlebars path
+
+type in index -> 
+const path = require...
+const hbs = require('express-handlebars')
+const body parser
+const express('express')
+const app = express();
+
+app.listen(3000);
+
+//the above i snow a basic express handlebars server
